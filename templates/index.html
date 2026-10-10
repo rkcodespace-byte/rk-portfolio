@@ -1,0 +1,161 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK | Software Engineer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <a class="logo" href="#">RK<span>.</span></a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button id="theme-toggle" type="button">☀️</button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <p class="eyebrow">HELLO, WORLD! 👋</p>
+            <h1>I'm <span>Ramkumar</span></h1>
+            <h2>Aspiring Software Engineer</h2>
+            <p class="intro">
+                MCA student passionate about Python, problem-solving,
+                backend development and building useful software.
+            </p>
+
+            <div class="actions">
+                <a class="btn" href="#projects">Explore My Work</a>
+                <a class="btn secondary" href="#contact">Contact Me</a>
+
+                <a class="btn secondary"
+                    href="https://github.com/rkcodespace"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        GitHub ↗
+                </a>
+
+                <a class="btn secondary"
+                    href="https://www.linkedin.com/in/rkcodespace/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        LinkedIn ↗
+                </a>
+
+                <a class="btn secondary"
+                    href="mailto:rk.codespace@gmail.com">
+                        Email Me ↗
+                </a>
+            </div>
+
+        </section>
+
+        <section id="about" class="section">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+            <p>
+                I'm pursuing my MCA at Jain (Deemed-to-be University).
+                I'm developing my programming skills and working towards
+                becoming a software engineer.
+            </p>
+        </section>
+
+        <section id="skills" class="section">
+            <p class="eyebrow">WHAT I'M LEARNING</p>
+            <h2>My <span>Skills</span></h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Python</h3>
+                    <p>Programming fundamentals and problem-solving.</p>
+                </article>
+                <article class="card">
+                    <h3>SQL</h3>
+                    <p>Learning databases and querying data.</p>
+                </article>
+                <article class="card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and project management.</p>
+                </article>
+                <article class="card">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript and FastAPI.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <p class="eyebrow">WHAT I'M BUILDING</p>
+            <h2>Featured <span>Projects</span></h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>RK Portfolio</h3>
+                    <p>A personal portfolio built with HTML, CSS,
+                       JavaScript and FastAPI.</p>
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">GitHub ↗</a>
+                </article>
+                <article class="card">
+                    <h3>Python Projects</h3>
+                    <p>A collection of Python practice programs
+                       and beginner projects.</p>
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">GitHub ↗</a>
+                </article>
+                <article class="card">
+                    <h3>Coming Soon</h3>
+                    <p>More software development projects will
+                       be added as I learn.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Contact <span>Me</span></h2>
+            <form id="contact-form">
+                <input name="name" placeholder="Your name"
+                       minlength="2" maxlength="80" required>
+                <input name="email" type="email"
+                       placeholder="Your email" required>
+                <input name="subject" placeholder="Subject"
+                       minlength="3" maxlength="120" required>
+                <textarea name="message" placeholder="Your message"
+                          minlength="10" maxlength="3000"
+                          rows="5" required></textarea>
+                <input name="website" class="honeypot"
+                       tabindex="-1" autocomplete="off"
+                       aria-hidden="true">
+                <button class="btn" type="submit">Send Message</button>
+                <p id="form-status" role="status"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Ramkumar | Built with Python & creativity.</p>
+
+        <p class="social-links">
+            <a href="https://github.com/rkcodespace"
+                target="_blank"
+                rel="noopener noreferrer">GitHub</a>
+            |
+            <a href="https://www.linkedin.com/in/rkcodespace/"
+                target="_blank"
+                rel="noopener noreferrer">LinkedIn</a>
+            |
+            <a href="mailto:rk.codespace@gmail.com">
+                rk.codespace@gmail.com
+            </a>
+        </p>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
